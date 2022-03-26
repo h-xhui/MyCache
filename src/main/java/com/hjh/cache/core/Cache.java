@@ -1,11 +1,10 @@
 package com.hjh.cache.core;
 
-import com.hjh.cache.api.ICache;
-import com.hjh.cache.api.ICacheEntry;
-import com.hjh.cache.api.ICacheEvict;
-import com.hjh.cache.api.ICacheEvictContext;
+import com.hjh.cache.api.*;
+import com.hjh.cache.api.annotation.CacheInterceptor;
 import com.hjh.cache.exception.CacheRuntimeException;
 import com.hjh.cache.support.evict.CacheEvictContext;
+import com.hjh.cache.support.expire.CacheExpire;
 
 import java.util.Collection;
 import java.util.Map;
@@ -20,6 +19,7 @@ public class Cache<K, V> implements ICache<K, V> {
     private Map<K, V> map;
     private int sizeLimit;
     private ICacheEvict<K, V> evict;
+    private ICacheExpire<K, V> expire;
 
     /**
      * 设置map的实现
@@ -41,6 +41,12 @@ public class Cache<K, V> implements ICache<K, V> {
         return this;
     }
 
+
+    @Override
+    public ICacheEvict<K, V> evict() {
+        return this.evict;
+    }
+
     /**
      * 设置淘汰策略
      * @param cacheEvict
@@ -52,8 +58,24 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
-    public ICacheEvict<K, V> evict() {
-        return this.evict;
+    public ICacheExpire<K, V> expire() {
+        return this.expire;
+    }
+
+    public void setExpire(ICacheExpire<K, V> expire) {
+        this.expire = expire;
+    }
+
+    public Cache<K, V> expire(K key, Long expireTime) {
+        if (this.expire == null) {
+            synchronized (this) {
+                if (this.expire == null) {
+                    this.expire = new CacheExpire<>(this);
+                }
+            }
+        }
+        this.expire.expire(key, expireTime);
+        return this;
     }
 
     @Override
@@ -78,10 +100,12 @@ public class Cache<K, V> implements ICache<K, V> {
 
     @Override
     public V get(Object key) {
+        evict.updateKey((K) key);
         return map.get(key);
     }
 
     @Override
+    @CacheInterceptor(evict = true)
     public V put(K key, V value) {
         CacheEvictContext<K, V> context  = new CacheEvictContext<>();
         context.key(key).size(sizeLimit).cache(this);
@@ -96,6 +120,7 @@ public class Cache<K, V> implements ICache<K, V> {
 
     @Override
     public V remove(Object key) {
+        evict.removeKey((K) key);
         return map.remove(key);
     }
 

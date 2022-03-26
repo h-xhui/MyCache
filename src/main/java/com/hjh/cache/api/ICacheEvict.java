@@ -17,12 +17,12 @@ public interface ICacheEvict<K, V> {
      * 更新key的消息
      * @param key
      */
-    void updateKey(final int key);
+    void updateKey(final K key);
 
     /**
      * 移除key
      * @param key
      */
-    void removeKey(final int key);
+    void removeKey(final K key);
 
 }

@@ -4,6 +4,7 @@ import com.hjh.cache.api.ICache;
 import com.hjh.cache.api.ICacheEvict;
 import com.hjh.cache.core.Cache;
 import com.hjh.cache.support.evict.CacheEvicts;
+import com.hjh.cache.support.expire.CacheExpire;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -47,7 +48,7 @@ public final class CacheBs<K, V> {
         return this;
     }
 
-    public ICache<K, V> build() {
+    public Cache<K, V> build() {
         Cache<K, V> cache = new Cache<>();
         cache.map(map);
         cache.sizeLimit(size);
@@ -57,13 +58,25 @@ public final class CacheBs<K, V> {
     }
 
     public static void main(String[] args) {
-        ICache<String, String> cache = CacheBs.<String, String>newInstance()
-                .size(2).evict(CacheEvicts.None()).build();
+        Cache<String, String> cache = CacheBs.<String, String>newInstance()
+                .size(3).evict(CacheEvicts.FIFO()).build();
         cache.put("1", "1");
         cache.put("2", "2");
-        cache.put("3", "3");
-        cache.put("4", "4");
-        cache.put("5", "5");
-        System.out.println(cache.keySet());
+        System.out.println(cache.size());
+        cache.expire("1", 1000L);
+        cache.expire("2", 1000L);
+        try {
+            Thread.sleep(1010);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(cache.size());
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(cache.size());
+
     }
 }
