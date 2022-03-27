@@ -20,6 +20,8 @@ public class Cache<K, V> implements ICache<K, V> {
     private int sizeLimit;
     private ICacheEvict<K, V> evict;
     private ICacheExpire<K, V> expire;
+    private ICacheLoad<K, V> load;
+    private ICachePersist<K, V> persist;
 
     /**
      * 设置map的实现
@@ -62,8 +64,24 @@ public class Cache<K, V> implements ICache<K, V> {
         return this.expire;
     }
 
-    public void setExpire(ICacheExpire<K, V> expire) {
-        this.expire = expire;
+    @Override
+    public ICacheLoad<K, V> load() {
+        return this.load;
+    }
+
+    @Override
+    public ICachePersist<K, V> persist() {
+        return this.persist;
+    }
+
+    public Cache<K, V> persist(ICachePersist<K, V> persist) {
+        this.persist = persist;
+        return this;
+    }
+
+    public Cache<K, V> load(ICacheLoad<K, V> load){
+        this.load = load;
+        return this;
     }
 
     public Cache<K, V> expire(K key, Long expireTime) {

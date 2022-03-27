@@ -9,5 +9,8 @@
         <module name="MyCache" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyCache" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
