@@ -30,6 +30,5 @@ public abstract class AbstractCacheEvict<K, V> implements ICacheEvict<K, V> {
 
     @Override
     public void removeKey(K key) {
-
     }
 }

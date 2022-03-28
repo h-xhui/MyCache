@@ -84,7 +84,8 @@ public class Cache<K, V> implements ICache<K, V> {
         return this;
     }
 
-    public Cache<K, V> expire(K key, Long expireTime) {
+    @Override
+    public ICache<K, V> expire(K key, Long expireTime) {
         if (this.expire == null) {
             synchronized (this) {
                 if (this.expire == null) {

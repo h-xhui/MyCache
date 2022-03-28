@@ -1,5 +1,7 @@
 package com.hjh.cache.api;
 
+import com.hjh.cache.core.Cache;
+
 import java.util.Map;
 
 /**
@@ -16,10 +18,12 @@ public interface ICache<K, V> extends Map<K, V> {
     ICacheEvict<K, V> evict();
 
     /**
-     * 删除策略
+     * 定时删除策略
      * @return
      */
     ICacheExpire<K, V> expire();
+
+    ICache<K, V> expire(K key, Long expireTime);
 
     /**
      * 加载消息

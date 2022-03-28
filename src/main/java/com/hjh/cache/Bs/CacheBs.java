@@ -10,6 +10,8 @@ import com.hjh.cache.support.expire.CacheExpire;
 import com.hjh.cache.support.load.CacheLoadNone;
 import com.hjh.cache.support.persist.CachePersistDbJSON;
 import com.hjh.cache.support.persist.InnerCachePersist;
+import com.hjh.cache.support.proxy.CacheProxy;
+import com.hjh.cache.support.proxy.api.ICacheProxy;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -65,22 +67,22 @@ public final class CacheBs<K, V> {
         return this;
     }
 
-    public Cache<K, V> build() {
+    public ICache<K, V> build() {
         Cache<K, V> cache = new Cache<>();
         cache.map(map);
         cache.sizeLimit(size);
         cache.evict(evict);
         cache.load(load);
         cache.persist(persist);
-
-        return cache;
+        return CacheProxy.getProxy(cache);
     }
 
     public static void main(String[] args) {
-        Cache<String, String> cache = CacheBs.<String, String>newInstance()
+        ICache<String, String> cache = CacheBs.<String, String>newInstance()
                 .size(3).evict(CacheEvicts.FIFO()).load(new CacheLoadNone()).persist(new CachePersistDbJSON<>("test.txt")).build();
-        cache.load().load(cache);
+        cache.put("1", "1");
+        cache.put("2", "2");
         cache.expire("1", 100000L);
-        new InnerCachePersist<>(cache);
+        // new InnerCachePersist<>(cache);
     }
 }
