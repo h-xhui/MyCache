@@ -17,4 +17,10 @@ public @interface CacheInterceptor {
      * @return
      */
     boolean evict() default false;
+
+    /**
+     * 是否启用刷新
+     * @return
+     */
+    boolean refresh() default false;
 }

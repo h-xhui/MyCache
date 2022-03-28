@@ -2,6 +2,7 @@ package com.hjh.cache.support.interceptor;
 
 import com.hjh.cache.api.ICacheInterceptor;
 import com.hjh.cache.support.interceptor.evict.CacheEvictInterceptor;
+import com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor;
 
 /**
  * @author hongjinhui
@@ -11,5 +12,9 @@ import com.hjh.cache.support.interceptor.evict.CacheEvictInterceptor;
 public class CacheInterceptors {
     public static ICacheInterceptor evict() {
         return new CacheEvictInterceptor();
+    }
+
+    public static ICacheInterceptor expire() {
+        return new CacheExpireInterceptor();
     }
 }

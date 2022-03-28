@@ -74,15 +74,19 @@ public final class CacheBs<K, V> {
         cache.evict(evict);
         cache.load(load);
         cache.persist(persist);
+        cache.init();
         return CacheProxy.getProxy(cache);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ICache<String, String> cache = CacheBs.<String, String>newInstance()
-                .size(3).evict(CacheEvicts.FIFO()).load(new CacheLoadNone()).persist(new CachePersistDbJSON<>("test.txt")).build();
+                .size(3).evict(CacheEvicts.LRU()).build();
         cache.put("1", "1");
         cache.put("2", "2");
-        cache.expire("1", 100000L);
-        // new InnerCachePersist<>(cache);
+        cache.put("3", "3");
+        cache.expire("1", 1000L);
+        Thread.sleep(1500);
+        System.out.println(cache.size());
+        //System.out.println(cache.entrySet());
     }
 }

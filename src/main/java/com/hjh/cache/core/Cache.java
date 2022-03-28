@@ -5,8 +5,11 @@ import com.hjh.cache.api.annotation.CacheInterceptor;
 import com.hjh.cache.exception.CacheRuntimeException;
 import com.hjh.cache.support.evict.CacheEvictContext;
 import com.hjh.cache.support.expire.CacheExpire;
+import com.hjh.cache.support.load.CacheLoadNone;
+import com.hjh.cache.support.persist.InnerCachePersist;
 
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 
@@ -22,6 +25,23 @@ public class Cache<K, V> implements ICache<K, V> {
     private ICacheExpire<K, V> expire;
     private ICacheLoad<K, V> load;
     private ICachePersist<K, V> persist;
+
+    public void init() {
+        if (expire == null) {
+            expire = new CacheExpire<>(this);
+        }
+
+        if (load == null) {
+            load = new CacheLoadNone();
+        }
+
+        load.load(this);
+
+        if (persist != null) {
+            new InnerCachePersist<>(this);
+        }
+
+    }
 
     /**
      * 设置map的实现
@@ -86,40 +106,38 @@ public class Cache<K, V> implements ICache<K, V> {
 
     @Override
     public ICache<K, V> expire(K key, Long expireTime) {
-        if (this.expire == null) {
-            synchronized (this) {
-                if (this.expire == null) {
-                    this.expire = new CacheExpire<>(this);
-                }
-            }
-        }
         this.expire.expire(key, expireTime);
         return this;
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public int size() {
         return map.size();
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public boolean isEmpty() {
         return map.isEmpty();
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public boolean containsKey(Object key) {
         return map.containsKey(key);
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public boolean containsValue(Object value) {
         return map.containsValue(value);
     }
 
     @Override
+    @CacheInterceptor(evict = true)
     public V get(Object key) {
-        evict.updateKey((K) key);
+        expire.refreshExpire(Collections.singletonList((K) key));
         return map.get(key);
     }
 
@@ -138,8 +156,8 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
+    @CacheInterceptor(evict = true)
     public V remove(Object key) {
-        evict.removeKey((K) key);
         return map.remove(key);
     }
 
@@ -149,21 +167,25 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public void clear() {
         map.clear();
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public Set<K> keySet() {
         return map.keySet();
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public Collection<V> values() {
         return map.values();
     }
 
     @Override
+    @CacheInterceptor(refresh = true)
     public Set<Entry<K, V>> entrySet() {
         return map.entrySet();
     }

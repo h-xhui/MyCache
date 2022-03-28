@@ -25,4 +25,8 @@ public class CacheEvicts {
     public static <K, V> ICacheEvict<K, V> None() {
         return new CacheEvictNone<>();
     }
+
+    public static <K, V> ICacheEvict<K, V> LRU() {
+        return new CacheEvictLRU<>();
+    }
 }

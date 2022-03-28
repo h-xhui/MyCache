@@ -27,6 +27,11 @@ public class CacheProxyBs {
      */
     private ICacheInterceptor evictInterceptor = CacheInterceptors.evict();
 
+    /**
+     * 过期拦截器
+     */
+    private ICacheInterceptor expireInterceptor = CacheInterceptors.expire();
+
     public static CacheProxyBs getInstance() {
         return new CacheProxyBs();
     }
@@ -44,13 +49,22 @@ public class CacheProxyBs {
      */
     @SuppressWarnings("all")
     public void interceptorHandle(CacheInterceptor cacheInterceptor, CacheInterceptorContext cacheInterceptorContext, boolean before) {
-        // 淘汰策略
         if (cacheInterceptor != null) {
+            // 淘汰策略
             if (cacheInterceptor.evict()) {
                 if (before) {
                     evictInterceptor.before(cacheInterceptorContext);
                 } else {
                     evictInterceptor.after(cacheInterceptorContext);
+                }
+            }
+
+            // 刷新过期key
+            if (cacheInterceptor.refresh()) {
+                if (before) {
+                    expireInterceptor.before(cacheInterceptorContext);
+                } else {
+                    expireInterceptor.after(cacheInterceptorContext);
                 }
             }
         }

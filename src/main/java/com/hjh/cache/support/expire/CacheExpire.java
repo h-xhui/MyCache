@@ -64,7 +64,18 @@ public class CacheExpire<K, V> implements ICacheExpire<K, V> {
 
     @Override
     public void refreshExpire(Collection<K> keyList) {
-
+        if (keyList == null) {
+            return;
+        }
+        if (keyList.size() <= expireMap.size()) {
+            for (K key : keyList) {
+                expireKey(key, expireMap.get(key));
+            }
+        } else {
+            for (Map.Entry<K, Long> entry : expireMap.entrySet()) {
+                expireKey(entry.getKey(), entry.getValue());
+            }
+        }
     }
 
     @Override
