@@ -30,12 +30,11 @@ public class InnerCachePersist<K, V> {
         }
         EXECUTOR_SERVICE.scheduleAtFixedRate(()->{
             try {
-                System.out.println("持久化开始");
+                logger.info("持久化开始");
                 persist.persist(cache);
-                System.out.println("持久化成功");
+                logger.info("持久化成功");
             } catch (Exception e) {
-                e.printStackTrace();
-                System.out.println("持久化失败");
+                logger.error("持久化失败", e);
             }
         }, persist.delay(), persist.period(), persist.timeUnit());
     }
