@@ -2,6 +2,7 @@ package com.hjh.cache.api;
 
 import com.hjh.cache.core.Cache;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -23,6 +24,13 @@ public interface ICache<K, V> extends Map<K, V> {
      */
     ICacheExpire<K, V> expire();
 
+
+    /**
+     * 设置键过期
+     * @param key
+     * @param expireTime
+     * @return
+     */
     ICache<K, V> expire(K key, Long expireTime);
 
     /**
@@ -36,4 +44,10 @@ public interface ICache<K, V> extends Map<K, V> {
      * @return
      */
     ICachePersist<K, V> persist();
+
+    /**
+     * 删除监听器列表
+     * @return
+     */
+    List<ICacheRemoveListener<K, V>> removeListeners();
 }

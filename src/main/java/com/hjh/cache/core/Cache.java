@@ -2,16 +2,17 @@ package com.hjh.cache.core;
 
 import com.hjh.cache.api.*;
 import com.hjh.cache.api.annotation.CacheInterceptor;
+import com.hjh.cache.constant.enums.CacheRemoveType;
 import com.hjh.cache.exception.CacheRuntimeException;
 import com.hjh.cache.support.evict.CacheEvictContext;
 import com.hjh.cache.support.expire.CacheExpire;
+import com.hjh.cache.support.listener.remove.CacheRemoveListener;
+import com.hjh.cache.support.listener.remove.CacheRemoveListenerContext;
+import com.hjh.cache.support.listener.remove.CacheRemoveListeners;
 import com.hjh.cache.support.load.CacheLoadNone;
 import com.hjh.cache.support.persist.InnerCachePersist;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author hongjinhui
@@ -25,6 +26,7 @@ public class Cache<K, V> implements ICache<K, V> {
     private ICacheExpire<K, V> expire;
     private ICacheLoad<K, V> load;
     private ICachePersist<K, V> persist;
+    private List<ICacheRemoveListener<K, V>> removeListeners;
 
     public void init() {
         if (expire == null) {
@@ -33,6 +35,10 @@ public class Cache<K, V> implements ICache<K, V> {
 
         if (load == null) {
             load = new CacheLoadNone();
+        }
+
+        if (removeListeners == null) {
+            removeListeners = CacheRemoveListeners.defaults();
         }
 
         load.load(this);
@@ -94,6 +100,11 @@ public class Cache<K, V> implements ICache<K, V> {
         return this.persist;
     }
 
+    @Override
+    public List<ICacheRemoveListener<K, V>> removeListeners() {
+        return this.removeListeners;
+    }
+
     public Cache<K, V> persist(ICachePersist<K, V> persist) {
         this.persist = persist;
         return this;
@@ -101,6 +112,11 @@ public class Cache<K, V> implements ICache<K, V> {
 
     public Cache<K, V> load(ICacheLoad<K, V> load){
         this.load = load;
+        return this;
+    }
+
+    public Cache<K, V> removeListeners(List<ICacheRemoveListener<K, V>> removeListeners) {
+        this.removeListeners = removeListeners;
         return this;
     }
 
@@ -148,10 +164,22 @@ public class Cache<K, V> implements ICache<K, V> {
         context.key(key).size(sizeLimit).cache(this);
         ICacheEntry<K, V> evictEntry = evict.evict(context);
 
+        if (evictEntry != null) {
+            // 淘汰监听
+            CacheRemoveListenerContext<K, V> removeListenerContext = CacheRemoveListenerContext.<K, V>getInstance()
+                    .key(evictEntry.key())
+                    .value(evictEntry.value())
+                    .type(CacheRemoveType.EVICT.getMessage());
+            for (ICacheRemoveListener<K, V> removeListener : removeListeners) {
+                removeListener.listen(removeListenerContext);
+            }
+        }
+
         // 防止没有缓存策略时，超出限制
         if (this.size() >= sizeLimit) {
             throw new CacheRuntimeException("缓存已满，数据添加失败");
         }
+
         return map.put(key, value);
     }
 

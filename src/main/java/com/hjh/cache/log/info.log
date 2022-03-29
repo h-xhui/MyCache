@@ -1,0 +1,24 @@
+2022-03-29 11:35:50 上午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key: 1,value: 1,type: 淘汰
+2022-03-29 11:35:52 上午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key: 2,value: 2,type: 过期
+2022-03-29 11:35:52 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 11:35:52 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 11:35:52 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 11:35:52 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 11:37:25 上午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key: 1,value: 1,type: 淘汰
+2022-03-29 11:37:26 上午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key: 2,value: 2,type: 过期
+2022-03-29 11:37:26 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 11:37:26 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 11:37:26 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 11:37:26 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成

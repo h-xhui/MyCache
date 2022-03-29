@@ -2,6 +2,9 @@ package com.hjh.cache.support.expire;
 
 import com.hjh.cache.api.ICache;
 import com.hjh.cache.api.ICacheExpire;
+import com.hjh.cache.api.ICacheRemoveListener;
+import com.hjh.cache.constant.enums.CacheRemoveType;
+import com.hjh.cache.support.listener.remove.CacheRemoveListenerContext;
 import com.sun.org.apache.bcel.internal.generic.LMUL;
 
 import java.util.Collection;
@@ -21,7 +24,7 @@ public class CacheExpire<K, V> implements ICacheExpire<K, V> {
      */
     private static final int LIMIT = 100;
 
-    private Map<K, Long> expireMap = new ConcurrentHashMap<>(128);
+    private final Map<K, Long> expireMap = new ConcurrentHashMap<>(128);
 
     private final ICache<K, V> cache;
 
@@ -39,7 +42,7 @@ public class CacheExpire<K, V> implements ICacheExpire<K, V> {
     private class ExpireThread implements Runnable{
         @Override
         public void run() {
-            if (expireMap == null || expireMap.size() == 0) {
+            if (expireMap.size() == 0) {
                 return;
             }
             int count = 0;
@@ -91,7 +94,16 @@ public class CacheExpire<K, V> implements ICacheExpire<K, V> {
         Long currentTime = System.currentTimeMillis();
         if (currentTime >= expireAt) {
             expireMap.remove(key);
-            cache.remove(key);
+            V expireValue = cache.remove(key);
+
+            // 过期监听
+            CacheRemoveListenerContext<K, V> removeListenerContext = CacheRemoveListenerContext.<K, V>getInstance()
+                    .key(key)
+                    .value(expireValue)
+                    .type(CacheRemoveType.EXPIRE.getMessage());
+            for (ICacheRemoveListener<K, V> removeListener : cache.removeListeners()) {
+                removeListener.listen(removeListenerContext);
+            }
         }
     }
 
