@@ -18,4 +18,8 @@ public class CachePersists<K, V> {
     public static <K, V> ICachePersist<K, V> dbJSON(String fileName) {
         return new CachePersistDbJSON<>(fileName);
     }
+
+    public static <K, V> ICachePersist<K, V> aof(String fileName) {
+        return new CachePersistAOF<>(fileName);
+    }
 }

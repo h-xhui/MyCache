@@ -398,3 +398,159 @@ INFO:完成aof持久化
 INFO:Remove key:{2} ,value:{2} ,type:{过期}
 2022-03-29 20:46:09 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
 INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:12:49 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:12:49 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:12:49 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:13:37 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:13:37 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:13:37 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:13:37 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:13:37 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:15:34 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:15:34 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 21:15:34 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 21:15:35 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:15:35 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:16:21 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:16:21 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:16:21 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:16:22 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 21:16:22 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 21:16:22 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:16:22 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:17:03 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:17:03 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:17:03 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:17:04 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:17:04 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:17:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:17:22 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:17:22 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:17:23 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 21:17:23 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 21:17:23 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:17:24 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:17:35 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:17:35 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:17:35 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:17:35 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{null} ,type:{淘汰}
+2022-03-29 21:17:36 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 21:17:36 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{淘汰}
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{淘汰}
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{6} ,value:{6} ,type:{淘汰}
+2022-03-29 21:20:22 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:20:22 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:20:22 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:20:23 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:20:23 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:22:00 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:22:00 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:22:00 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:22:01 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{null} ,type:{淘汰}
+2022-03-29 21:22:30 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:22:30 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 21:22:30 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:22:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:22:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:23:07 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:23:07 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:23:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:23:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:24:08 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:24:08 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 21:24:08 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:24:08 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:40:32 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 21:40:32 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:40:32 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
+2022-03-29 21:41:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistDbJSON >> Method: com.hjh.cache.support.persist.CachePersistDbJSON.persist(CachePersistDbJSON.java:30) ]
+INFO:开始RDB持久化
+2022-03-29 21:41:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistDbJSON >> Method: com.hjh.cache.support.persist.CachePersistDbJSON.persist(CachePersistDbJSON.java:41) ]
+INFO:完成RDB持久化
+2022-03-29 21:42:15 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{4} ,value:{4} ,type:{过期}
+2022-03-29 21:42:15 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{淘汰}
+2022-03-29 21:42:15 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{淘汰}
+2022-03-29 21:42:15 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{4} ,value:{null} ,type:{淘汰}
+2022-03-29 21:42:24 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{4} ,value:{4} ,type:{过期}
+2022-03-29 21:42:24 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:19) ]
+INFO:开始刷新
+2022-03-29 21:42:24 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
+INFO:刷新完成
