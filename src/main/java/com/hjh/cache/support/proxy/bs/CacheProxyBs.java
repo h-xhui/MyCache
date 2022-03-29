@@ -5,8 +5,10 @@ import com.hjh.cache.api.ICacheInterceptor;
 import com.hjh.cache.api.annotation.CacheInterceptor;
 import com.hjh.cache.support.interceptor.CacheInterceptorContext;
 import com.hjh.cache.support.interceptor.CacheInterceptors;
+import com.hjh.cache.support.persist.CachePersistAOF;
 import com.hjh.cache.support.proxy.api.ICacheProxy;
 import com.hjh.cache.support.proxy.api.ICacheProxyBsContext;
+import org.apache.log4j.Logger;
 
 /**
  * 代理引导类
@@ -16,7 +18,7 @@ import com.hjh.cache.support.proxy.api.ICacheProxyBsContext;
  */
 
 public class CacheProxyBs {
-
+    private final Logger log = Logger.getLogger(CacheProxyBs.class);
     /**
      * 代理上下文信息
      */
@@ -36,6 +38,11 @@ public class CacheProxyBs {
      * 花费拦截器
      */
     private ICacheInterceptor costInterceptor = CacheInterceptors.cost();
+
+    /**
+     * aof拦截器
+     */
+    private ICacheInterceptor aofInterceptor = CacheInterceptors.aof();
 
     public static CacheProxyBs getInstance() {
         return new CacheProxyBs();
@@ -79,6 +86,15 @@ public class CacheProxyBs {
                     costInterceptor.before(cacheInterceptorContext);
                 } else {
                     costInterceptor.after(cacheInterceptorContext);
+                }
+            }
+
+            // aof持久化，这里为了防止无效操作提前判断
+            if (cacheInterceptor.aof() && cacheInterceptorContext.cache().persist() instanceof CachePersistAOF) {
+                if (before) {
+                    aofInterceptor.before(cacheInterceptorContext);
+                } else {
+                    aofInterceptor.after(cacheInterceptorContext);
                 }
             }
         }

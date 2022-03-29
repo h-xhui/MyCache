@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.hjh.cache.api.ICache;
 import com.hjh.cache.model.PersistRDBEntry;
 import com.hjh.cache.utils.FileUtil;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.util.Map;
@@ -17,15 +18,16 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class CachePersistDbJSON<K, V> extends CachePersistAdaptor<K, V> {
-
+    private final Logger log = Logger.getLogger(CachePersistDbJSON.class);
     private final String dbPath;
     private final String fileName;
     public CachePersistDbJSON(String fileName) {
         this.fileName = fileName;
-        this.dbPath = FileUtil.getCurrentProjectPath() + "\\" + fileName;
+        this.dbPath = FileUtil.getCurrentProjectPath() + "\\db\\" + fileName;
     }
     @Override
     public void persist(ICache<K, V> cache) {
+        log.info("开始RDB持久化");
         FileUtil.makeFile(dbPath);
         FileUtil.clearFile(dbPath);
         for (Map.Entry<K, V> entry : cache.entrySet()) {
@@ -36,6 +38,7 @@ public class CachePersistDbJSON<K, V> extends CachePersistAdaptor<K, V> {
             String line = JSON.toJSONString(persistRDBEntry);
             FileUtil.fileLinesWrite(dbPath, line, true);
         }
+        log.info("完成RDB持久化");
     }
 
     @Override

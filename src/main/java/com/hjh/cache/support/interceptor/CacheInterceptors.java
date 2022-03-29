@@ -1,6 +1,7 @@
 package com.hjh.cache.support.interceptor;
 
 import com.hjh.cache.api.ICacheInterceptor;
+import com.hjh.cache.support.interceptor.aof.CacheAofInterceptor;
 import com.hjh.cache.support.interceptor.common.CacheCostInterceptor;
 import com.hjh.cache.support.interceptor.evict.CacheEvictInterceptor;
 import com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor;
@@ -21,5 +22,9 @@ public class CacheInterceptors {
 
     public static ICacheInterceptor cost() {
         return new CacheCostInterceptor();
+    }
+
+    public static ICacheInterceptor aof() {
+        return new CacheAofInterceptor();
     }
 }

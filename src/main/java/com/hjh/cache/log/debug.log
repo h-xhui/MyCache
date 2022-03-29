@@ -36,3 +36,629 @@ WARN:[Slow] methodName:{put}, params:{["3","3"]}, constTime:{1506ms}
 INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
 2022-03-29 16:44:43 下午 [Thread: main][ Class:com.hjh.cache.support.listener.slow.CacheSlowListener >> Method: com.hjh.cache.support.listener.slow.CacheSlowListener.listen(CacheSlowListener.java:25) ]
 WARN:[Slow] methodName:{put}, params:{["4","4"]}, constTime:{1504ms}
+2022-03-29 19:59:58 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:03:47 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:05:56 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:93) ]
+DEBUG:1
+2022-03-29 20:07:35 下午 [Thread: main][ Class:com.hjh.cache.support.proxy.bs.CacheProxyBs >> Method: com.hjh.cache.support.proxy.bs.CacheProxyBs.interceptorHandle(CacheProxyBs.java:94) ]
+DEBUG:com.hjh.cache.support.persist.CachePersistAOF@e73f9ac
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:08:30 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:14:02 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:14:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:07 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:07 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:07 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:07 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:09 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:09 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:09 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:09 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:11 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:11 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:11 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:11 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:12 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:12 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:12 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:12 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:13 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:13 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:13 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:13 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:14 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:14 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:14 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:14 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:15 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:15 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:15 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:15 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:16 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:16 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:16 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:16 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:17 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:17 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:17 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:17 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:18 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:18 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:18 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:18 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:14:19 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:14:19 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:31) ]
+INFO:开始aof持久化
+2022-03-29 20:14:19 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:39) ]
+INFO:完成aof持久化
+2022-03-29 20:14:19 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expire","params":["2",1000]}}
+2022-03-29 20:18:31 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expire","params":["2",1000]}}
+2022-03-29 20:18:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:18:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:18:32 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:32 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:18:33 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:33 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:34 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:34 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:35 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:35 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:36 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:36 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:37 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:37 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:38 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:38 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:39 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:39 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:40 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:40 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:41 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:41 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:42 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:42 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:43 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:43 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:44 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:44 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:45 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:45 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:46 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:46 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:47 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:47 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:48 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:48 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:49 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:49 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:50 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:50 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:51 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:51 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:52 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:52 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:53 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:53 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:54 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:54 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:55 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:55 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:56 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:56 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:57 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:57 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:58 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:58 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:18:59 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:18:59 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:00 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:00 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:01 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:01 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:02 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:02 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:03 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:04 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:05 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:19:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:33) ]
+INFO:持久化开始
+2022-03-29 20:19:06 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.InnerCachePersist >> Method: com.hjh.cache.support.persist.InnerCachePersist.lambda$init$0(InnerCachePersist.java:35) ]
+INFO:持久化成功
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:38:09 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:38:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:38:10 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:38:11 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["2",1648557534757]}}
+2022-03-29 20:38:53 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["2",1648557534757]}}
+2022-03-29 20:38:54 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:38:54 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:38:54 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["3",1648557581327]}}
+2022-03-29 20:39:39 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["3",1648557581327]}}
+2022-03-29 20:39:40 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:39:40 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:39:40 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:39:41 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["2",1648557829055]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["2",1648557829055]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["3",1648557829557]}}
+2022-03-29 20:43:48 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["3",1648557829557]}}
+2022-03-29 20:43:48 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:43:48 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:43:49 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:43:49 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["2",1648557867136]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["2",1648557867136]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["3",1648557867638]}}
+2022-03-29 20:44:26 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["3",1648557867638]}}
+2022-03-29 20:44:27 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:44:27 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:44:27 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:44:27 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["2",1648557895230]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["2",1648557895230]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["3",1648557895730]}}
+2022-03-29 20:44:54 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["3",1648557895730]}}
+2022-03-29 20:44:55 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:44:55 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:44:55 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:44:55 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["1","1"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["2","2"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["3","3"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"put","params":["4","4"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"remove","params":["4"]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["2",1648557968902]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["2",1648557968902]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:31) ]
+DEBUG:[AOF]开始追加文件内容:{{"methodName":"expireAt","params":["3",1648557969404]}}
+2022-03-29 20:46:07 下午 [Thread: main][ Class:com.hjh.cache.support.interceptor.aof.CacheAofInterceptor >> Method: com.hjh.cache.support.interceptor.aof.CacheAofInterceptor.before(CacheAofInterceptor.java:33) ]
+DEBUG:[AOF]完成追加文件内容:{{"methodName":"expireAt","params":["3",1648557969404]}}
+2022-03-29 20:46:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:34) ]
+INFO:开始aof持久化
+2022-03-29 20:46:08 下午 [Thread: pool-2-thread-1][ Class:com.hjh.cache.support.persist.CachePersistAOF >> Method: com.hjh.cache.support.persist.CachePersistAOF.persist(CachePersistAOF.java:42) ]
+INFO:完成aof持久化
+2022-03-29 20:46:08 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{2} ,value:{2} ,type:{过期}
+2022-03-29 20:46:09 下午 [Thread: pool-1-thread-1][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{3} ,value:{3} ,type:{过期}

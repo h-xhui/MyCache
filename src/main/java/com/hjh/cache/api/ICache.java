@@ -34,6 +34,14 @@ public interface ICache<K, V> extends Map<K, V> {
     ICache<K, V> expire(K key, Long expireTime);
 
     /**
+     * 设置过期时间
+     * @param key 健
+     * @param expireAt 到此时过期
+     * @return
+     */
+    ICache<K, V> expireAt(K key, Long expireAt);
+
+    /**
      * 加载消息
      * @return
      */

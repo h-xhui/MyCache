@@ -16,6 +16,8 @@ public interface ICacheExpire<K, V> {
      */
     void expire(K key, Long expireTime);
 
+    void expireAt(K key, Long expireAt);
+
     /**
      * 惰性删除中所需要处理的keys
      * @param keyList

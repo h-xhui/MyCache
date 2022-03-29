@@ -12,7 +12,9 @@ import com.hjh.cache.support.listener.remove.CacheRemoveListeners;
 import com.hjh.cache.support.listener.slow.CacheSlowListeners;
 import com.hjh.cache.support.load.CacheLoadNone;
 import com.hjh.cache.support.persist.InnerCachePersist;
+import com.hjh.cache.support.proxy.CacheProxy;
 
+import java.lang.annotation.Inherited;
 import java.util.*;
 
 /**
@@ -35,9 +37,6 @@ public class Cache<K, V> implements ICache<K, V> {
             expire = new CacheExpire<>(this);
         }
 
-        if (load == null) {
-            load = new CacheLoadNone();
-        }
 
         if (removeListeners == null) {
             removeListeners = CacheRemoveListeners.defaults();
@@ -47,7 +46,9 @@ public class Cache<K, V> implements ICache<K, V> {
             slowListeners = CacheSlowListeners.none();
         }
 
-        load.load(this);
+        if (load != null) {
+            load.load(this);
+        }
 
         if (persist != null) {
             new InnerCachePersist<>(this);
@@ -137,9 +138,15 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
-    @CacheInterceptor
     public ICache<K, V> expire(K key, Long expireTime) {
-        this.expire.expire(key, expireTime);
+        CacheProxy.getProxy(this).expireAt(key, System.currentTimeMillis() + expireTime);
+        return this;
+    }
+
+    @Override
+    @CacheInterceptor(aof = true)
+    public ICache<K, V> expireAt(K key, Long expireAt) {
+        this.expire.expireAt(key, expireAt);
         return this;
     }
 
@@ -175,7 +182,7 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
-    @CacheInterceptor(evict = true)
+    @CacheInterceptor(evict = true, aof = true)
     public V put(K key, V value) {
         CacheEvictContext<K, V> context  = new CacheEvictContext<>();
         context.key(key).size(sizeLimit).cache(this);
@@ -201,18 +208,19 @@ public class Cache<K, V> implements ICache<K, V> {
     }
 
     @Override
-    @CacheInterceptor(evict = true)
+    @CacheInterceptor(evict = true, aof = true)
     public V remove(Object key) {
         return map.remove(key);
     }
 
     @Override
+    @CacheInterceptor(aof = true)
     public void putAll(Map<? extends K, ? extends V> m) {
         map.putAll(m);
     }
 
     @Override
-    @CacheInterceptor(refresh = true)
+    @CacheInterceptor(refresh = true, aof = true)
     public void clear() {
         map.clear();
     }

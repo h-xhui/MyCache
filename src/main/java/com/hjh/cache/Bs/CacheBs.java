@@ -7,6 +7,7 @@ import com.hjh.cache.support.expire.CacheExpire;
 import com.hjh.cache.support.listener.remove.CacheRemoveListeners;
 import com.hjh.cache.support.listener.slow.CacheSlowListeners;
 import com.hjh.cache.support.load.CacheLoadNone;
+import com.hjh.cache.support.persist.CachePersistAOF;
 import com.hjh.cache.support.persist.CachePersistDbJSON;
 import com.hjh.cache.support.persist.InnerCachePersist;
 import com.hjh.cache.support.proxy.CacheProxy;
@@ -97,10 +98,15 @@ public final class CacheBs<K, V> {
                 .size(3)
                 .evict(CacheEvicts.LRU())
                 .removeListeners(CacheRemoveListeners.defaults())
-                .slowListeners(CacheSlowListeners.defaults()).build();
+                .slowListeners(CacheSlowListeners.defaults())
+                .persist(new CachePersistAOF<>("a.aof"))
+                .build();
         cache.put("1", "1");
         cache.put("2", "2");
         cache.put("3", "3");
         cache.put("4", "4");
+        cache.remove("4");
+        cache.expire("2", 1000L);
+        cache.expireAt("3", System.currentTimeMillis() + 1500L);
     }
 }

@@ -29,4 +29,9 @@ public @interface CacheInterceptor {
      * @return
      */
     boolean common() default true;
+
+    /**
+     * 是否开启aof持久化
+     */
+    boolean aof() default false;
 }

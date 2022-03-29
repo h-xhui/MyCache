@@ -30,9 +30,7 @@ public class InnerCachePersist<K, V> {
         }
         EXECUTOR_SERVICE.scheduleAtFixedRate(()->{
             try {
-                logger.info("持久化开始");
                 persist.persist(cache);
-                logger.info("持久化成功");
             } catch (Exception e) {
                 logger.error("持久化失败", e);
             }

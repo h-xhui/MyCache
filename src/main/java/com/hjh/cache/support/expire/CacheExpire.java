@@ -61,7 +61,8 @@ public class CacheExpire<K, V> implements ICacheExpire<K, V> {
         this.expireAt(key, System.currentTimeMillis() + expireTime);
     }
 
-    private void expireAt(K key, Long expireAt) {
+    @Override
+    public void expireAt(K key, Long expireAt) {
         expireMap.put(key, expireAt);
     }
 
