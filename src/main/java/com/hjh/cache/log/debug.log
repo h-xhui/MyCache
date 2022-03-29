@@ -22,3 +22,17 @@ INFO:刷新完成
 INFO:开始刷新
 2022-03-29 11:37:26 上午 [Thread: main][ Class:com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor >> Method: com.hjh.cache.support.interceptor.expire.CacheExpireInterceptor.before(CacheExpireInterceptor.java:22) ]
 INFO:刷新完成
+2022-03-29 16:41:26 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 16:44:04 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 16:44:38 下午 [Thread: main][ Class:com.hjh.cache.support.listener.slow.CacheSlowListener >> Method: com.hjh.cache.support.listener.slow.CacheSlowListener.listen(CacheSlowListener.java:25) ]
+WARN:[Slow] methodName:{put}, params:{["1","1"]}, constTime:{1505ms}
+2022-03-29 16:44:40 下午 [Thread: main][ Class:com.hjh.cache.support.listener.slow.CacheSlowListener >> Method: com.hjh.cache.support.listener.slow.CacheSlowListener.listen(CacheSlowListener.java:25) ]
+WARN:[Slow] methodName:{put}, params:{["2","2"]}, constTime:{1514ms}
+2022-03-29 16:44:41 下午 [Thread: main][ Class:com.hjh.cache.support.listener.slow.CacheSlowListener >> Method: com.hjh.cache.support.listener.slow.CacheSlowListener.listen(CacheSlowListener.java:25) ]
+WARN:[Slow] methodName:{put}, params:{["3","3"]}, constTime:{1506ms}
+2022-03-29 16:44:43 下午 [Thread: main][ Class:com.hjh.cache.support.listener.remove.CacheRemoveListener >> Method: com.hjh.cache.support.listener.remove.CacheRemoveListener.listen(CacheRemoveListener.java:18) ]
+INFO:Remove key:{1} ,value:{1} ,type:{淘汰}
+2022-03-29 16:44:43 下午 [Thread: main][ Class:com.hjh.cache.support.listener.slow.CacheSlowListener >> Method: com.hjh.cache.support.listener.slow.CacheSlowListener.listen(CacheSlowListener.java:25) ]
+WARN:[Slow] methodName:{put}, params:{["4","4"]}, constTime:{1504ms}

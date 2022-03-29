@@ -23,4 +23,10 @@ public @interface CacheInterceptor {
      * @return
      */
     boolean refresh() default false;
+
+    /**
+     * 通用拦截器
+     * @return
+     */
+    boolean common() default true;
 }

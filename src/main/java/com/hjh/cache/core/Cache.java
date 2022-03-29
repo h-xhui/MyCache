@@ -9,6 +9,7 @@ import com.hjh.cache.support.expire.CacheExpire;
 import com.hjh.cache.support.listener.remove.CacheRemoveListener;
 import com.hjh.cache.support.listener.remove.CacheRemoveListenerContext;
 import com.hjh.cache.support.listener.remove.CacheRemoveListeners;
+import com.hjh.cache.support.listener.slow.CacheSlowListeners;
 import com.hjh.cache.support.load.CacheLoadNone;
 import com.hjh.cache.support.persist.InnerCachePersist;
 
@@ -27,6 +28,7 @@ public class Cache<K, V> implements ICache<K, V> {
     private ICacheLoad<K, V> load;
     private ICachePersist<K, V> persist;
     private List<ICacheRemoveListener<K, V>> removeListeners;
+    private List<ICacheSlowListener<K, V>> slowListeners;
 
     public void init() {
         if (expire == null) {
@@ -39,6 +41,10 @@ public class Cache<K, V> implements ICache<K, V> {
 
         if (removeListeners == null) {
             removeListeners = CacheRemoveListeners.defaults();
+        }
+
+        if (slowListeners == null) {
+            slowListeners = CacheSlowListeners.none();
         }
 
         load.load(this);
@@ -105,6 +111,11 @@ public class Cache<K, V> implements ICache<K, V> {
         return this.removeListeners;
     }
 
+    @Override
+    public List<ICacheSlowListener<K, V>> slowListeners() {
+        return this.slowListeners;
+    }
+
     public Cache<K, V> persist(ICachePersist<K, V> persist) {
         this.persist = persist;
         return this;
@@ -120,7 +131,13 @@ public class Cache<K, V> implements ICache<K, V> {
         return this;
     }
 
+    public Cache<K, V> slowListeners(List<ICacheSlowListener<K, V>> slowListeners) {
+        this.slowListeners = slowListeners;
+        return this;
+    }
+
     @Override
+    @CacheInterceptor
     public ICache<K, V> expire(K key, Long expireTime) {
         this.expire.expire(key, expireTime);
         return this;

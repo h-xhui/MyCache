@@ -15,6 +15,6 @@ public class CacheRemoveListener<K, V> implements ICacheRemoveListener<K, V> {
     private final Logger logger = Logger.getLogger(CacheRemoveListener.class);
     @Override
     public void listen(ICacheRemoveListenerContext<K, V> context) {
-        logger.info("Remove key: " + context.key() + ",value: " + context.value() + ",type: " + context.type());
+        logger.info("Remove key:{" + context.key() + "} ,value:{" + context.value() + "} ,type:{" + context.type()+ "}");
     }
 }

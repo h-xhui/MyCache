@@ -32,6 +32,11 @@ public class CacheProxyBs {
      */
     private ICacheInterceptor expireInterceptor = CacheInterceptors.expire();
 
+    /**
+     * 花费拦截器
+     */
+    private ICacheInterceptor costInterceptor = CacheInterceptors.cost();
+
     public static CacheProxyBs getInstance() {
         return new CacheProxyBs();
     }
@@ -65,6 +70,15 @@ public class CacheProxyBs {
                     expireInterceptor.before(cacheInterceptorContext);
                 } else {
                     expireInterceptor.after(cacheInterceptorContext);
+                }
+            }
+
+            // 通用拦截器
+            if (cacheInterceptor.common()) {
+                if (before) {
+                    costInterceptor.before(cacheInterceptorContext);
+                } else {
+                    costInterceptor.after(cacheInterceptorContext);
                 }
             }
         }
