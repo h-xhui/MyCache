@@ -29,4 +29,16 @@ public class CacheEvicts {
     public static <K, V> ICacheEvict<K, V> LRU() {
         return new CacheEvictLRU<>();
     }
+
+    public static <K, V> ICacheEvict<K, V> LRUPlus() {
+        return new CacheEvictLRUPlus<>();
+    }
+
+    public static <K, V> ICacheEvict<K, V> LRU_2() {
+        return new CacheEvictLRU_2<>();
+    }
+
+    public static <K, V> ICacheEvict<K, V> LFU() {
+        return new CacheEvictLFU<>();
+    }
 }

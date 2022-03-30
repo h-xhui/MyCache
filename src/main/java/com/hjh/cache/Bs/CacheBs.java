@@ -99,17 +99,23 @@ public final class CacheBs<K, V> {
     public static void main(String[] args) throws InterruptedException {
         ICache<String, String> cache = CacheBs.<String, String>newInstance()
                 .size(3)
-                .evict(CacheEvicts.LRU())
+                .evict(CacheEvicts.LFU())
                 .removeListeners(CacheRemoveListeners.defaults())
                 .slowListeners(CacheSlowListeners.defaults())
-                .load(CacheLoads.loadByRDB("data.rdb"))
+                //.load(CacheLoads.loadByRDB("data.rdb"))
                 //.persist(CachePersists.dbJSON("data.rdb"))
                 .build();
-//        cache.put("1", "1");
-//        cache.put("2", "2");
-//        cache.put("3", "3");
-//        cache.put("4", "4");
-//        cache.expire("4", 90000L);
-        System.out.println(cache.size());
+        cache.put("2", "2");
+        cache.get("2");
+        cache.put("1", "1");
+        cache.get("1");
+        cache.get("2");
+        cache.put("3", "3");
+        cache.get("3");
+        cache.remove("3");
+        cache.put("4", "4");
+        cache.put("5", "5");
+        //cache.expire("4", 90000L);
+        System.out.println(cache.entrySet());
     }
 }
